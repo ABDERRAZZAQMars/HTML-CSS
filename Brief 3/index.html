@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -20,13 +22,16 @@
             <h1 class="titre">VENTE D’IMMOBILIER</h1>
 
             <Div class="recherche">
-                <input type="text">
-                <input type="text">
+                <input type="text" placeholder="Rayon De Recherche">
+            </Div>
+
+            <Div class="prix">
+                <input type="text" placeholder="fourchette de prix">
             </Div>
 
             <div class="chamres">
-                <label for="">Chambres</label>
                 <select name="" id="">
+                    <option value="">Chambres</option>
                     <option value="">Single</option>
                     <option value="">Double</option>
                     <option value="">Family</option>
@@ -34,8 +39,8 @@
             </div>
 
             <div class="type">
-                <label for="">Type De Propriété</label>
                 <select name="" id="">
+                    <option value="">Type De Propriété</option>
                     <option value="">Appartement</option>
                     <option value="">Villas</option>
                     <option value="">Maisson Familier</option>
@@ -47,7 +52,7 @@
                 <input type="checkbox">
             </div>
 
-            <div btnrechercher>
+            <div class="btnrechercher">
                 <button>Rechercher</button>
             </div>
 
